@@ -1,0 +1,76 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="formulaire.css">
+    <link rel="stylesheet" href="C:\Users\Jean-Jacques\Documents\Web projetcs\bootstrap-3.3.7-dist\css\bootstrap.min.css" >
+    <style type="text/css">
+        body {color:black;}
+        body {font-family: Comic Sans MS;}
+    </style>
+</head> 
+<body style="background-image:url(m.png);" class="img-responsive img-rounded img-thumbnail">
+    <h1 style="font-size:xx-large" class="btn-primary"><center>Formulaire</center> </h1>
+    <h4 class="alert-danger">Pour donc vous inscrire sur notre site veuillez remplir ce formulaire juste en dessous....</h4>
+    <form action="/Documents and Settings" class="col-lg-6">
+        <div class="form-group">
+        <fieldset>
+            <legend class="btn-block">Inscription</legend>
+            <p>
+           <br> <label for="name">Nom:</label><input type="text" name="name" id="name" class="form-control" placeholder="METUS" required>
+           <br> <label for="pr">Prénom:</label> <input type="text" name="pr" id="pr"placeholder="Carnel" class="form-control" required>
+           </p>
+           <p>
+               </div>
+               <div class="form-group"></div>
+             <br><label for="email">Email:</label> <input type="mail" id="mail" name="mail" class="form-control" placeholder="carnelmetus@gmail.com" required>
+             <br><label for="password">Mot de Passe:</label> <input type="password" id="password"  class="form-control" name="pasword">
+             <br><label for="photo"> Photo:</label> <input type="file" name="photo" id="photo" class="form-control">
+             <br> <label for="an"> Année de Naissance:</label> <input type="date" name="an" id="an" class="form-control">
+
+           </p>
+           </div>
+           <div class="form-group">
+           <br><label for="sexe">Sexe:</label> 
+            <br><input type="radio" name="homme" id="homme">  <label for="homme">Homme</label>
+            <br><input type="radio" name="femme" id="femme"> <label for="femme">Femme</label>
+           <br> <label for="pays">Pays:</label>
+           <select name="pays" id="pays">
+               <option value=""> Benin</option>
+               <option value="">Togo</option>
+               <option value="">Cameroun</option>
+               <option value="">Gabon</option>
+               <option value="">Ghana</option>
+               <option value=""> RDC</option>
+               <option value=""> Zimbabwe</option>
+               <option value=""> Tanzanie</option>
+               <option value=""> Angola</option>
+               <option value=""> Tunisie</option>
+               <option value=""> Maroc</option>
+               <option value=""> Algerie</option>
+           </select>
+          <br> <label for="pt">Passe-Temps Préférés:</label>
+           <br><input type="checkbox" > <label for="music">Musique</label>
+          <br> <input type="checkbox" > <label for="foot">Football</label>
+          <br> <input type="checkbox"> <label for="basket">BasketBall</label>
+          <br> <input type="checkbox"> <label for="programmation">Programmation</label>
+           <br><button class="btn-lg"  > <a href="index.html"> Quitter</a></button>
+           <button type="submit" class="btn btn-primary btn-lg"><span class="glyphicons glyphicons-envelope"></span>Envoyez</button>
+           
+           <button type="reset" class="btn btn-warning"> Effacer </button>
+           <br>
+           <br>
+
+           <label for="comm">Commentaires:</label>
+            <textarea name="comm" id="comm" cols="0" rows="0" style="text-align:right" class="form-control"></textarea>
+
+            <em><marquee behavior="" direction="">..Merci pour votre  confiance...Au revoir et a bientot..</marquee></em>   
+        <button class="btn-primary" > <a href="mailto:carnelmetus@gmail.com"> Envoyez nous un mail</a></button>
+          </fieldset>
+    </form>
+    
+</body>
+</html>

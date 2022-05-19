@@ -1,0 +1,38 @@
+body
+{   
+     background-color:#2962FF;
+    margin:auto;
+    font-family:Comic Sans Ms;
+    color:black;
+
+}
+p
+{
+    border: 2px white dotted;
+}
+h1
+{
+    text-align: center;
+    font-family: Narkisim;
+}
+h4
+{
+    font-family: Narkisim;
+    font-style: italic;
+    
+}
+.maman
+{
+    font-family: Narkisim;
+    font-size: large;
+}
+legend
+{
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+em
+{
+    font-family:Cooper Black ;
+}
